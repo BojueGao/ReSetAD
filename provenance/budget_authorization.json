@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-30T10:56:57.046371+00:00",
+  "source": "User explicitly authorized +96 GPU hours for518 training and automatic inference",
+  "added_gpu_hours": 96.0,
+  "old_allowance": 96.0,
+  "new_allowance": 192.0,
+  "old_used": 128.30185532232787,
+  "old_ledger_path": "/home/ubuntu/MyDisk/VSI-AD-Large/result/rr_v1/gpu_budget.json",
+  "old_ledger_sha256": "434c23089cc8c383cb72080e49916ff3ee926df8650f4ae1be881ced37648751",
+  "old_attempt_count": 19,
+  "old_prefix_gpu_hours": 91.70778896749681
+}

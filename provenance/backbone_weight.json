@@ -1,0 +1,585 @@
+{
+  "status": "READY",
+  "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth",
+  "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/dinov2_vitl14_pretrain.pth",
+  "sha256": "d5383ea8f4877b2472eb973e0fd72d557c7da5d3611bd527ceeb1d7162cbf428",
+  "bytes": 1217586395,
+  "etag": "\"cc03629d9da78b4829d02245498340b1-146\"",
+  "full_multipart_etag_verified": true,
+  "transport": "Preserved ranges, same official ETag, bounded CPU transport retries",
+  "pieces": [
+    {
+      "start": 0,
+      "end": 83886079,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/dinov2_vitl14_pretrain.part",
+      "sha256": "7686013dff3372bca91cd9e40a25ece20ca9e26748e8f05d7e23f8f165151723"
+    },
+    {
+      "start": 83886080,
+      "end": 100663295,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0000.part",
+      "sha256": "7ce8f5746b3e50775f89a5a4639c074793ac77d05c1f87f9998f559a2d1cd7f3"
+    },
+    {
+      "start": 100663296,
+      "end": 117440511,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0001.part",
+      "sha256": "cbb7179e1468569555b34be5f70632553382cf179040b0c8bdfb6b5c08c76dca"
+    },
+    {
+      "start": 117440512,
+      "end": 134217727,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0002.part",
+      "sha256": "ea42d95aa97b19039a7d0945b49ee6ffcea46c8c25d6f1770cf3e58e8cdc9581"
+    },
+    {
+      "start": 134217728,
+      "end": 150994943,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0003.part",
+      "sha256": "b79816419db4b46a3ddaf2a6bccbf5d2905bd5921360b373d7f383c7c5c9630d"
+    },
+    {
+      "start": 150994944,
+      "end": 167772159,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0004.part",
+      "sha256": "a6c42dbf828406bdd5e16b388fb19d5fd94fcac763dc78145c5bd7cc94213d81"
+    },
+    {
+      "start": 167772160,
+      "end": 184549375,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0005.part",
+      "sha256": "4da8548a15183e3cdfb320300ccce4bb79f25209be7af0eaccdb21aeecec8734"
+    },
+    {
+      "start": 184549376,
+      "end": 201326591,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0006.part",
+      "sha256": "24ea1b0742bf7c61cf2599733e4c1c60ed5ede756fce907f319fb49ae6314c4f"
+    },
+    {
+      "start": 201326592,
+      "end": 218103807,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0007.part",
+      "sha256": "da8a5b2747cd5fb1610cbce16d8e347aea61933cc4817f35c0818c28ad173f2c"
+    },
+    {
+      "start": 218103808,
+      "end": 234881023,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0008.part",
+      "sha256": "8560a75f7a95904ad13a334bee49f6820925c7ac2b6bfb15c01214c3e6a3b02d"
+    },
+    {
+      "start": 234881024,
+      "end": 251658239,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0009.part",
+      "sha256": "06ffdd175f9fffdf2ed230ac45df49fc286390746eea19e0a591cdcdb2bee34b"
+    },
+    {
+      "start": 251658240,
+      "end": 268435455,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0010.part",
+      "sha256": "ab332bb5de9b5844cf3151b456b07d343b02314fe73178deb1fb5360e52a322b"
+    },
+    {
+      "start": 268435456,
+      "end": 285212671,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0011.part",
+      "sha256": "201d208c9077683714a21917d070f981f8ff0f173433f1e943b3d073e226f415"
+    },
+    {
+      "start": 285212672,
+      "end": 301989887,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0012.part",
+      "sha256": "63ffca54577162e34046599df69a549ffc634a2c7de5d4d67630ceefe8d4d74e"
+    },
+    {
+      "start": 301989888,
+      "end": 318767103,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0013.part",
+      "sha256": "0454e1ad11cdbf1be940fb0ef0b5a48a54ba4073540474903b31fa5f4e772531"
+    },
+    {
+      "start": 318767104,
+      "end": 335544319,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0014.part",
+      "sha256": "72fa5fb511fe50de0acb64cbbe2b0f0b1cc3f793dbf2372204eceb8f2a449342"
+    },
+    {
+      "start": 335544320,
+      "end": 352321535,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0015.part",
+      "sha256": "4468c0454607a23b0a23e5f74d3b165c48de7f4500621f73cfde854eb805fee6"
+    },
+    {
+      "start": 352321536,
+      "end": 359661567,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0016.part",
+      "sha256": "e2f3819c5707e01df5f102201c83b94f9afd7a0a08d65972ab9d12569a013e98"
+    },
+    {
+      "start": 359661568,
+      "end": 363855871,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/359661568_1.part",
+      "sha256": "f9aab92ca47a61af2f455a9b07f1b063b86ef5538ff8cc363c167d8ca80e5bdd"
+    },
+    {
+      "start": 363855872,
+      "end": 368050175,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/363855872_1.part",
+      "sha256": "8a9ef5aa99ae63435e6594240201bb1f917e2ed73963889c914195bf204afbf7"
+    },
+    {
+      "start": 368050176,
+      "end": 369098751,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/368050176_1.part",
+      "sha256": "19dea8c459aab252f9fbab7158c335d8532e5b5cb3190ce2b1ad2fca473b1e48"
+    },
+    {
+      "start": 369098752,
+      "end": 385875967,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0017.part",
+      "sha256": "e61598e89eda588a406fdfebce241a5bd747c59cc7897827fe41af369860e062"
+    },
+    {
+      "start": 385875968,
+      "end": 402653183,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0018.part",
+      "sha256": "5cbe9773ae4c53939cc1a982c81c292dd0a865d55167040cf50b943bccff7364"
+    },
+    {
+      "start": 402653184,
+      "end": 419430399,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0019.part",
+      "sha256": "50664aa21dd26c0d5a7f9649ba39982c9076b5dc8da2b40eb4d9019b2add813e"
+    },
+    {
+      "start": 419430400,
+      "end": 436207615,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0020.part",
+      "sha256": "acdc26123b6963c56c4896906b98d49e983bf3676e0459d82b93dc8c421f68dd"
+    },
+    {
+      "start": 436207616,
+      "end": 452984831,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0021.part",
+      "sha256": "3859420030a5433c9c6753031d728e2cb78316ea57c7e2e47f3f34576a1ed763"
+    },
+    {
+      "start": 452984832,
+      "end": 469762047,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0022.part",
+      "sha256": "1dfc3be656d6dbc98e3e1fc0b88f5c7cf01ad0af556bce5f6cbfef1771197b96"
+    },
+    {
+      "start": 469762048,
+      "end": 486539263,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0023.part",
+      "sha256": "3ca9defe10bba0b23a4a60178bafef4d691f67d67cbd6c517e130bd8aaaa1188"
+    },
+    {
+      "start": 486539264,
+      "end": 503316479,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0024.part",
+      "sha256": "ea7814412044bc40929d1d3fc5adb8dd819a960ef05bd71a881dcd0741dfe498"
+    },
+    {
+      "start": 503316480,
+      "end": 520093695,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0025.part",
+      "sha256": "863b4641bb9e0c405e86bb9a6797672c80255f3debe5b02d494c1fe7c5e52d4d"
+    },
+    {
+      "start": 520093696,
+      "end": 524287999,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/520093696_1.part",
+      "sha256": "44773ca41796e3eb754cf419d168a4a4dbf4b54deb2eaaa385fd34637e53a0e1"
+    },
+    {
+      "start": 524288000,
+      "end": 528482303,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/524288000_1.part",
+      "sha256": "1a93ae3579b69ff0049ff2f723a6e8f59bfe51e5633fee749579f8bbbfc32357"
+    },
+    {
+      "start": 528482304,
+      "end": 532676607,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/528482304_1.part",
+      "sha256": "a0104b43232d71fa7fbc9a1e19b1265a2c99bb01d5b36b01703b121b378ed14b"
+    },
+    {
+      "start": 532676608,
+      "end": 536870911,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/532676608_1.part",
+      "sha256": "208ca64318c931d9b6bd3c953a4cbd8fb0bb34c8464018cc6f5d587d1d00a6e4"
+    },
+    {
+      "start": 536870912,
+      "end": 541065215,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/536870912_1.part",
+      "sha256": "ca775646797284419a8ec4898cd6d23a81c7643f0ea1926ff0fcdd544b5974c9"
+    },
+    {
+      "start": 541065216,
+      "end": 545259519,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/541065216_1.part",
+      "sha256": "13baf9010522e03a7142e13124627726afb21912e2c3b87ec52c80001e33832f"
+    },
+    {
+      "start": 545259520,
+      "end": 549453823,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/545259520_1.part",
+      "sha256": "f65f62f43c977e7cbca950b290c10add77eebb8dd20ff7d53e005f9d08c7c065"
+    },
+    {
+      "start": 549453824,
+      "end": 553648127,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/549453824_1.part",
+      "sha256": "694514c8094aedae7bcf8a98ec43965ccb56344acb40d7648d54595f9803fb92"
+    },
+    {
+      "start": 553648128,
+      "end": 562036735,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0028.part",
+      "sha256": "094538e84430b2796f4919397c4a925dcb334893dc6c7227c92dd2f614299d91"
+    },
+    {
+      "start": 562036736,
+      "end": 566231039,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/562036736_1.part",
+      "sha256": "f464c31323bf1e4628c479e23e03e4984b0f351c859b0d81fc976481ac0aab7d"
+    },
+    {
+      "start": 566231040,
+      "end": 570425343,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/566231040_1.part",
+      "sha256": "7f4161d09650b334fa72ca84e10e17427c22aa5625b47d60d427bd9b24fb8dc6"
+    },
+    {
+      "start": 570425344,
+      "end": 585105407,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0029.part",
+      "sha256": "2e968561ce4217968e3c1748b180f7fe826b68cebae3668d9efb8d755dbe449e"
+    },
+    {
+      "start": 585105408,
+      "end": 587202559,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/585105408_1.part",
+      "sha256": "322ef4eda10ef7b7810ac03e2b3e3551b15dda479f5501cde1566e1a9dc3ae68"
+    },
+    {
+      "start": 587202560,
+      "end": 602931199,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0030.part",
+      "sha256": "a90b132d395464b709ff086bf1ab9a8b0835a1129043c5ed87bc2830933ea7dd"
+    },
+    {
+      "start": 602931200,
+      "end": 603979775,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/602931200_1.part",
+      "sha256": "d605ea78b625dad889425319ed198a2dfa767c2901bafc5bfff9e1f89a1bb7da"
+    },
+    {
+      "start": 603979776,
+      "end": 620756991,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0031.part",
+      "sha256": "e21b392f01fd4eee2982b901d9054a7c0bd8dfef8a6ae219e1395ed55d1a922e"
+    },
+    {
+      "start": 620756992,
+      "end": 637534207,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0032.part",
+      "sha256": "54947d2b2274e990a5ffa15bd05861ba3e157a5d141eea1019b858ab5bb2ad1a"
+    },
+    {
+      "start": 637534208,
+      "end": 654311423,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0033.part",
+      "sha256": "c46d50d3e0df07518594ecfe5f3ef8d9231f87b95199d8f6e346a9e3ea2e17ba"
+    },
+    {
+      "start": 654311424,
+      "end": 664797183,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0034.part",
+      "sha256": "3d78a2916512543b37666295abecd36c874ce813b54000a08299754c1412e0e8"
+    },
+    {
+      "start": 664797184,
+      "end": 668991487,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/664797184_1.part",
+      "sha256": "398fd25c28b215a7d63a84b16ecef062000a119a076befe5c813b05057556210"
+    },
+    {
+      "start": 668991488,
+      "end": 671088639,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/668991488_1.part",
+      "sha256": "3e0d26055fec07992dd874d70817942c1b7035af9acb8da2794d5f5c4522ee49"
+    },
+    {
+      "start": 671088640,
+      "end": 682622975,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0035.part",
+      "sha256": "e7614c8a9daabb0c11aa7ef2e4462117aad7405c1361b960034e998e0827f319"
+    },
+    {
+      "start": 682622976,
+      "end": 686817279,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/682622976_1.part",
+      "sha256": "cd6f76b3c4620dfa5425340aff6a49f94187257c08ddbc37675b15889e20b459"
+    },
+    {
+      "start": 686817280,
+      "end": 687865855,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/686817280_1.part",
+      "sha256": "ac0d1ef82e72526d00ad84bdcb2c9758aa4ba541eaa916d44af9cee0e6f7a8b3"
+    },
+    {
+      "start": 687865856,
+      "end": 704643071,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0036.part",
+      "sha256": "c9905dc48067cd104af7c77bff19ba7f30bf4e7c27890c5b8dd42412c35bc013"
+    },
+    {
+      "start": 704643072,
+      "end": 721420287,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0037.part",
+      "sha256": "feb4fb969289f9ebbc7332aa4f12932cd3d50e172aaa19400c991a0cbd575572"
+    },
+    {
+      "start": 721420288,
+      "end": 725614591,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/721420288_1.part",
+      "sha256": "d94b294ea70b917ba674b46395fc48dc9b17036b4f20c7e7c4d3b0d3138a0ecf"
+    },
+    {
+      "start": 725614592,
+      "end": 729808895,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/725614592_1.part",
+      "sha256": "61ee0bb53b94857c7e1049f11fcf0e3c8d7a8cc271672a42c13625681cba2a37"
+    },
+    {
+      "start": 729808896,
+      "end": 734003199,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/729808896_1.part",
+      "sha256": "147e5dfa7ce73899a38e4b548c3e10906b79b48ebda0328595cf240da966697b"
+    },
+    {
+      "start": 734003200,
+      "end": 738197503,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/734003200_1.part",
+      "sha256": "7eb005bc95ded851962bd1832a5973875a1c0d076e5137fbd48b59c065ed6f64"
+    },
+    {
+      "start": 738197504,
+      "end": 754974719,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0039.part",
+      "sha256": "199e5902e51a0e092dfb6381a08b12897d850c13b749c173dd15837164d31b7c"
+    },
+    {
+      "start": 754974720,
+      "end": 771751935,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0040.part",
+      "sha256": "d09d7d8765ce41acf20878e69e15a4c0ac78d08ee4d4d5057272c6ad3aebfbdd"
+    },
+    {
+      "start": 771751936,
+      "end": 782237695,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0041.part",
+      "sha256": "e099e9e1ac45733d36973596b51494a0be9110ba25aa993c8b17aa46111c948e"
+    },
+    {
+      "start": 782237696,
+      "end": 786431999,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/782237696_1.part",
+      "sha256": "bb74684e8696ba30cc6aec7c59143c760dfff7076fb82c4853298a3183949039"
+    },
+    {
+      "start": 786432000,
+      "end": 788529151,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/786432000_1.part",
+      "sha256": "fa0db867d12fad02478cd5d641d182d7bd12b57ee56ef67f74982f142b35a827"
+    },
+    {
+      "start": 788529152,
+      "end": 805306367,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0042.part",
+      "sha256": "28de2d1b3f00dd25c9e5aa0a99937db4dd5b49d4e254c4beaf5de0fc56ee18b3"
+    },
+    {
+      "start": 805306368,
+      "end": 809500671,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/805306368_1.part",
+      "sha256": "97ae905debcc7dfabff19d296534a8f044ef387ff2f9a0399d34346ff144fd40"
+    },
+    {
+      "start": 809500672,
+      "end": 813694975,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/809500672_1.part",
+      "sha256": "f3464fdf3f0acc8e3cabbad31b26efff632276fffc5da818dcd6c16ebe1a2e01"
+    },
+    {
+      "start": 813694976,
+      "end": 817889279,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/813694976_1.part",
+      "sha256": "f28bd2b1e4816c8695cd609272ee2d26ad71fad065a9048e5fce28f49a05be1e"
+    },
+    {
+      "start": 817889280,
+      "end": 822083583,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/817889280_1.part",
+      "sha256": "7fd29ea2238036c3aca3f65e22b8103e6065c846908608949363761d38c792e2"
+    },
+    {
+      "start": 822083584,
+      "end": 835715071,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0044.part",
+      "sha256": "749c0f15aacd8296d4c0b9e61e9fbf503f8852212056ec57d0927181352245f9"
+    },
+    {
+      "start": 835715072,
+      "end": 838860799,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v2/835715072_1.part",
+      "sha256": "4cc87d61d79c77909ba78e9354b22793d5ec6a5f144acbbcee806d47ffcba6a3"
+    },
+    {
+      "start": 838860800,
+      "end": 855638015,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0045.part",
+      "sha256": "fd44f71ac6b5704155df24e21397f5313d9078c67d7f5c590c2c11c7a4cd2697"
+    },
+    {
+      "start": 855638016,
+      "end": 872415231,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0046.part",
+      "sha256": "fe054cf7c0d039b34ab133cbbd14c23d26b186d71c3d5c3104d4b09631ab2d27"
+    },
+    {
+      "start": 872415232,
+      "end": 889192447,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0047.part",
+      "sha256": "51a145fe9348d2b3d59cf69bc5fc9ee98f3e2f2c4d5396436ea45c83b8c381cd"
+    },
+    {
+      "start": 889192448,
+      "end": 905969663,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0048.part",
+      "sha256": "3fdc38ef1eaee5e5a3c32cee9f8ec96ec40823f9877cc5087a4bb4d023f81648"
+    },
+    {
+      "start": 905969664,
+      "end": 922746879,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0049.part",
+      "sha256": "7ee675ff0b63995a454b9de69da7a181f5653b65f5e6851e052ef02bed383a5a"
+    },
+    {
+      "start": 922746880,
+      "end": 939524095,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0050.part",
+      "sha256": "f27378b3292b987eaaa28da157061649dd408ac74f39213cb514f9436584ab38"
+    },
+    {
+      "start": 939524096,
+      "end": 956301311,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0051.part",
+      "sha256": "0c84e9e8e4503e50bf9b2d466730620b62353d5f5296ef895bbf58dedf08c235"
+    },
+    {
+      "start": 956301312,
+      "end": 973078527,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0052.part",
+      "sha256": "03a8646272e616df3b28f840d893ab5d0042c8fe371f37c559d7c11cafe46f4a"
+    },
+    {
+      "start": 973078528,
+      "end": 989855743,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0053.part",
+      "sha256": "8de0117d6a446ef4dc088f3c3895a06e3a7887a6f5fa9b70f5d3210a21766502"
+    },
+    {
+      "start": 989855744,
+      "end": 1006632959,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0054.part",
+      "sha256": "e8b779eaa7920ce7b395a0a35d92db2ce39c0f4ac63c1cd0d68b31db55065e98"
+    },
+    {
+      "start": 1006632960,
+      "end": 1023410175,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0055.part",
+      "sha256": "a0eef6edca0d363ccffe8e7bc4b2d2e3d323b3e8236772719dbe2b0ca2d78247"
+    },
+    {
+      "start": 1023410176,
+      "end": 1040187391,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0056.part",
+      "sha256": "ccb2adeb25ef6b2b5e4830c00cf442487f05bdf8448cc85b5ee7c2531a828a4c"
+    },
+    {
+      "start": 1040187392,
+      "end": 1056964607,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0057.part",
+      "sha256": "74d61669b48272e527f03b6c4b685df78548a5b2d6def834ce78617d7914a40c"
+    },
+    {
+      "start": 1056964608,
+      "end": 1073741823,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0058.part",
+      "sha256": "467029ee34e4ef979d8959966e809d616001109837975593fba2ce6943aefab2"
+    },
+    {
+      "start": 1073741824,
+      "end": 1090519039,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0059.part",
+      "sha256": "3232cc65800dac5d1233d53c864a77f1b5999b204fd6d85422fc56f3987ac9af"
+    },
+    {
+      "start": 1090519040,
+      "end": 1107296255,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0060.part",
+      "sha256": "b7751fe1f5027e41fda3c3c560f2d2455912d98444baa6a0614d3b766d4588a6"
+    },
+    {
+      "start": 1107296256,
+      "end": 1124073471,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0061.part",
+      "sha256": "75015506ccc3718059de833ab5388ce9c2370b03c2dfa29657abc0d5f60ec1cb"
+    },
+    {
+      "start": 1124073472,
+      "end": 1140850687,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0062.part",
+      "sha256": "093b9402f8bf475c817c03b176eb2aef0f6c0da8473e8bb259c4746c5388c9b3"
+    },
+    {
+      "start": 1140850688,
+      "end": 1157627903,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0063.part",
+      "sha256": "f3d6d17ba20b0251300893018604e0cb01f1032670b3a00805aaf3863ee3f129"
+    },
+    {
+      "start": 1157627904,
+      "end": 1174405119,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0064.part",
+      "sha256": "6fbc56123e4f1c66ead30522db7aef45fe651d2e785c9d0ea43a66f0fdae0837"
+    },
+    {
+      "start": 1174405120,
+      "end": 1191182335,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0065.part",
+      "sha256": "fa3d553d25e8143a4ca47d7cdaac2516baa9481e9235d4eafc4d44292601c40d"
+    },
+    {
+      "start": 1191182336,
+      "end": 1207959551,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0066.part",
+      "sha256": "93aadc716d203ccec4230805479d01f298f8cc84684890def7302b166abc4d3d"
+    },
+    {
+      "start": 1207959552,
+      "end": 1217586394,
+      "path": "/home/ubuntu/MyDisk/VSI-AD-Large/weights/large_official_segments_v1/0067.part",
+      "sha256": "37294c7c0397872a5352fff23d4aefd0033e69ca68c30347ab1694fc6ed004bd"
+    }
+  ],
+  "cpu_weights_only_load": true,
+  "seconds": 236.57766428799368,
+  "at": "2026-10-28T14:22:38.700367+00:00"
+}

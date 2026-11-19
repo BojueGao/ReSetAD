@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pem
+*.key
+/data/
+/datasets/
+/weights/
+outputs/cache/
+*.npy
+*.npz
+*.tar.gz
+*.zip

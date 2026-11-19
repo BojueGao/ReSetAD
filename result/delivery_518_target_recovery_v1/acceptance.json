@@ -1,0 +1,39 @@
+{
+  "status": "READY_FOR_DELIVERY_REVIEW",
+  "actual_updates": 30180,
+  "diagnostic_pairs": 144,
+  "datasets": 12,
+  "raw_maps": 31998,
+  "fused_maps": 10666,
+  "new_receipts": {
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_evaluate_br35h_v2.json": "b8659c51074748e80c95312e8cfacae2de4aeb54b363be1455dfcfd4ed7e0ed3",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_evaluate_cvc_clinicdb_v2.json": "e96fd0c803d34bab7909a0446a8b5edf90fd25a941b0b97c2280aeb6a5694f70",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_evaluate_cvc_colondb_v2.json": "2c7dedde2574ba1f08555eef14e7c97db5b24bca697c615d4101ddaf34fe18a9",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_evaluate_headct_v2.json": "3b475c2b6194979b1bc86367ced04fc50b1fc0dde6c8debc95e63653d0279f23",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_evaluate_isic_v2.json": "9fd105124186ca601a3996c95a5bd534903a3aeeaf0c36bfe591998f72e6acc6",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_evaluate_kvasir_seg_v2.json": "be8dd0ea2b0f1ff85f00c4340f1ea60c85bdd99b46aa161cc7d009129492f2c7",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_evaluate_tn3k_v2.json": "277d8913ccfee7d5a9943e21b4263f4b67bc24c5e00d2068ca40936b115425a1",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_predict_cvc_clinicdb_v2.json": "223e39fe86d331de9eb121d8d3f36df85450ef7f11cd3ea9937f6c32824542c7",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_predict_cvc_colondb_v2.json": "87818bfcbc7aa90c543f7054a08abfb3c546d4c7b815dab8dbd6686ab35412cb",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_predict_headct_v2.json": "2f506a77881303c2c67f050a9aaa1937ea45cb0e5931495e79e71b249459c9c9",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_predict_isic_v2.json": "deeb661da438a5da1f5d1fa583b07178a366a4d86c8da13537518ea7369ec605",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_predict_kvasir_seg_v2.json": "b20200563e26f87330c44a4f31f8de411bb6a8b5e8da6d133bc0de6a0ef05052",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_predict_tn3k_v2.json": "3c9f330a33a204091470019c1a4f403acd3919aab54e410df78f2b983b448bd6",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_preservation_v1.json": "6d522f54dc5cd44ca51538b0e72cda68244f3a1b45656abf4218d19b715b7ec6",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_resume_br35h_v1.json": "266562c55d40371b3d21273e34458a297ae6623b431cbc7877da9f6011adb78c",
+    "result/rr_rank_v1/target_recovery_v1/jobs/518_target_report_v2.json": "66c6809cd2ca9f655928ed5d793369aa81332048a3b24c27536d9aa3f22cb64c"
+  },
+  "old_results_preserved": true,
+  "old_training_exit": 130,
+  "old_target_exit": -15,
+  "prior_supervisor_exits": [
+    1,
+    1
+  ],
+  "cumulative_gpu_hours": 195.89524099695018,
+  "experiment_gpu_hours": 67.59338567462231,
+  "remaining_gpu_hours": 87.81254797054663,
+  "ledger_sha256": "4648909729f91a5c2d8178a0f710d1abda658341b9c0d90eaf1417876e2b1581",
+  "time": "2026-11-02T16:11:47.892185+00:00",
+  "boundary": "Final recovery root exit must be checked separately; single seed; no target tuning; pixel fixtures are not full-data second-implementation validation."
+}

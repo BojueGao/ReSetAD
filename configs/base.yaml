@@ -1,0 +1,141 @@
+
+protocol_version: vsi_ad_v1.0.1_s001
+source:
+  dataset: visa
+  merge_official_train_test: true
+  expected_total: 10821
+  expected_normal: 9621
+  expected_anomaly: 1200
+  holdout_categories: [pcb4, capsules, cashew]
+  metadata_labels_to_model: false
+preprocess:
+  size: [518, 518]
+  image_resize: bicubic_antialias
+  preserve_aspect_ratio: false
+  normalize_mean: [0.485, 0.456, 0.406]
+  normalize_std: [0.229, 0.224, 0.225]
+  source_mask_resize: area_positive_support
+  augmentation: none
+sampler:
+  query_size: 4
+  query_normal: 2
+  query_anomaly: 2
+  context_sizes: [8, 16, 32]
+  context_size_probs: [0.25, 0.50, 0.25]
+  contamination: [0, 0.125, 0.25, 0.50, 0.75, 1.0]
+  contamination_probs: [0.10, 0.20, 0.30, 0.25, 0.10, 0.05]
+  intra_episode_replacement: false
+  cross_episode_reuse: true
+  independent_query_context_queues: true
+  class_schedule: shuffled_round_robin
+  episodes_per_class_per_cycle: 503
+  prohibit_query_context_hash_overlap: true
+cache:
+  layers_only: true
+  feature_dtype: float32 # §37 allows precision upgrade after recorded FP16 cosine failure.
+  stats_dtype: float32
+  key_weight_transform_and_sample_hash: true
+
+
+model:
+  backbone: dinov2_vitl14
+  backbone_trainable: false
+  use_text: false
+  use_cls_for_scoring: false
+  layer_indices_zero_based: [5, 11, 17, 23]
+  feature_norm: true
+  neighborhood_sizes: [1, 3, 5]
+  pool_padding: reflect
+  l2_eps: 1.0e-6
+  patch_grid: 37
+  context_anchor_grid: 18
+  anchor_coordinates: odd_rows_and_columns
+  quantiles: [0.0, 0.10, 0.25, 0.50, 0.90]
+  quantile_interpolation: linear
+  exclude_same_image: true
+  relation_input_dim: 61
+  embed_dim: 128
+  heads: 4
+  ff_dim: 256
+  isab_blocks: 2
+  inducing_tokens_per_block: 16
+  pma_seeds: 1
+  dropout: 0.0
+  normality_hidden_dim: 64
+  reliability_floor: 0.01
+  reliability_ceiling: 0.99
+  lambda_max: 0.25
+  tau_max: 4.0
+  query_jackknife: true
+  sigma_eps: 0.01
+  robust_clip_multiplier: 3.0
+  positive_depthwise_kernel: 3
+  spatial_gate_max: 0.25
+  monotone_units_per_branch: 8
+  image_top_fraction: 0.01
+loss:
+  focal_alpha_positive: 0.75
+  focal_gamma: 2.0
+  dice_weight_inside_pixel: 0.5
+  image_weight: 0.5
+  context_weight: 0.2
+  context_bce_state_balanced: true
+  dice_positive_queries_only: true
+
+
+train:
+  dev_seed: 17
+  final_seeds: [17, 42, 3407]
+  warmup_cycles: 1
+  dev_joint_cycles: 4
+  final_joint_cycles: from_source_protocol_lock
+  joint_scheduler_horizon_cycles: 4
+  tasks_per_optimizer_step: 1
+  optimizer: AdamW
+  lr: 2.0e-4
+  min_lr: 2.0e-5
+  lr_warmup_steps_per_stage: 200
+  betas: [0.9, 0.999]
+  adam_eps: 1.0e-8
+  weight_decay_linear_attention: 1.0e-4
+  weight_decay_other: 0.0
+  clip_grad_norm: 1.0
+  reset_optimizer_at_joint_stage: true
+  ema: false
+  checkpoint_selection: source_macro_i_roc_and_aupro_equal
+  tie_tolerance: 1.0e-4
+  target_model_selection: false
+runtime:
+  encoder_batch_size: 2
+  node_chunk: 64
+  model_and_stats_dtype: float32
+  resume_rng_queues_and_class_schedule: true
+eval:
+  group_size: 20
+  minimum_regular_group_size: 12
+  query_chunk: 4
+  group_seeds: [101, 202, 303]
+  grouping_uses_labels: false
+  exclude_same_known_case_or_hash: true
+  target_updates: false
+  threshold: 0.5
+  per_image_minmax: false
+  aupro_fpr_limit: 0.30
+  pro_connectivity: 8
+  pro_thresholds: 4096
+  save_predictions_float32: true
+  require_exact_query_coverage: true
+
+execution:
+  run_until: OVERFIT
+  approved_gpus: [0, 1, 2, 3]
+  prelaunch_memory_used_max_gib_exclusive: 10
+  source_root: /home/ubuntu/MyDisk/data/VisA
+  manifest_dir: outputs/manifests
+  backbone_repo: /home/ubuntu/MyDisk/VSI-AD/vendor/dinov2
+  backbone_weights: /home/ubuntu/MyDisk/VSI-AD-Large/weights/dinov2_vitl14_pretrain.pth
+  reset_normal_query_at_joint_cycle: true
+  smoke_categories: [candle, pcb1]
+  smoke_steps: 200
+  overfit_steps: 300
+  overfit_episodes: 8
